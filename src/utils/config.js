@@ -1,6 +1,6 @@
 export const DATING_CONFIG = {
-    appID: 1162978115,
-    serverSecret: "ydafab4fd35b48236780474833d2543ec"
+    appID: your_app_id,
+    serverSecret: "your_server_secret"
 };
 
 export function generateUserToken(userID) {
@@ -9,9 +9,9 @@ export function generateUserToken(userID) {
     // In production, generate these securely on your backend
 
     const testTokens = {
-        "alexandra_model": "04AAAAAGhERYoADFpAahlQzaIB3BfOhQC6Vh5HrLlCeQCyr6TEK0aGXa9SY6Tn4m0D9dITYP4vabYvOEeYf56xOY+6WU+Fbb3T3kS1muDPS1tQiuUkswnGhNi2YpYbIz3OW9rQB0Km18Q7dGeGtB7qQHNDAE+8FCOso3u9OQymKx9Zm+oAtDATRDpBJnvNXfCtuZRI/XIz9j5k6YxM9jg1ijWF38IvTokn+az+suqtuTBw3PlNQlKKgwhl/3SZZm7A1jlPia4kOGZ4ajujYikhzoa5AQ==",
-        "james_actor": "04AAAAAGhERagADD+8Gk44ASCUkUmNCwC1yZ0hVsz5z66a6LTxBCuC+2RXfnbXM1f72wfmiLJV9KU0/PP45cEs34Hqwd2l66ylEtE8hlSCcprAKizYBW5sOOa8Uh2bEdx2ZysbZ4jOUjYE/Yx3UfmH4spx3SqxuvnN61XRGXh6WRSSm0G+OMeSqdxeOiVd6hyBzcAt/zoN+gPF7EZkk9PVbDx1luX2CrhPXft/SddzxwXHKNPlZZdBqmkS4VaHDRNhFlNW1y/INAhkC6hXzQE=",
-        "sophia_artist": "04AAAAAGhERcUADAIWf9cqLtlBltZoTwC3OmEERlBqvv+SnkKYOHUPtYbl/nEPel/tCVZix5yE8KX5UbZcjqtrUlAXL2eEdq+kz3VwAHOAbcd/QLZECnvwuN1Wcopi4UKJEZN7NbikZlYAFILttCX49WXHryK76gkh/Y+YrtQiRgrEMztByVcDzSngM+tZZazeFa/UAGQvSjPJhWWHwvgpVNcptL7An8Tb7+i11iFdR3KrxaIW4z/pz3PZOld2jvs2q79/UGE6WMNxFEYOt27JAQ=="
+        "alexandra_model": "development_token_here",
+        "james_actor": "development_token_here",
+        "sophia_artist": "development_token_here"
     };
         
     return testTokens[userID] || "";
